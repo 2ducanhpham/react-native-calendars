@@ -198,6 +198,7 @@ class CalendarList extends Component {
   render() {
     return (
       <FlatList
+        testID="flistCalendar"
         onLayout={this.onLayout}
         ref={(c) => this.listView = c}
         //scrollEventThrottle={1000}
